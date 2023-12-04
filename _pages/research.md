@@ -9,7 +9,7 @@ read_time: true
 # Selected Research Projects
 
 ## Representation Learning in Multi-granularity Linguistic Units for Word Segmentation
-A character sequence tends to comprise segmentation alternatives, leading to segmentation ambiguity. Properly handling this ambiguity using multi-granularity linguistic units, such as character clusters, subwords, and words, can improve word segmentation performance and lessen ambiguous boundary decisions. We conduct a study to investigate the potential of using various linguistic units and leveraging segmentation alternatives for character-based word seg- mentation. Our experimental results demonstrated improvements in segmentation performance, outperforming previous work on the BCCWJ, CTB6, and BEST2010 datasets in Japanese, Chi- nese, and Thai, respectively.
+A character sequence tends to comprise segmentation alternatives, leading to segmentation ambiguity. Properly handling this ambiguity using multi-granularity linguistic units, such as character clusters, subwords, and words, can improve word segmentation performance and lessen ambiguous boundary decisions. We conduct a study to investigate the potential of using various linguistic units and leveraging segmentation alternatives for character-based word segmentation. Our experimental results demonstrated improvements in segmentation performance, outperforming previous work on the BCCWJ, CTB6, and BEST2010 datasets in Japanese, Chinese, and Thai, respectively.
 
 ![latte-figure](/assets/images/research/latte-figure.png)
 > ### Further reading:
