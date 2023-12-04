@@ -19,5 +19,5 @@ Thodsaporn Chay-intr, Hidetaka Kamigaito, Manabu Okumura <br> *RANLP 2021* <br> 
 - **Character-based Thai Word Segmentation with Multiple Attentions**  (2023) <br>
 Thodsaporn Chay-intr, Hidetaka Kamigaito, Manabu Okumura <br> *Journal of Natural Language Processing 30(2)* <br> [paper](https://www.jstage.jst.go.jp/article/jnlp/30/2/30_372/_pdf/-char/en) [code](https://github.com/tchayintr/thwcc-attn)
 - **Detecting Fraud Job Recruitment Using Features Reflecting from Real-world Knowledge of Fraud** (2022) <br> Boonthida Chiraratanasopha, Thodsaporn Chay-intr, Thanaruk Theeramunkong <br> *Current Applied Science and Technology 22(6)* <br> [paper](https://li01.tci-thaijo.org/index.php/cast/article/view/254033/173746)
-- **Khmer Treebank Construction via Interactive Tree Visualization** (2019) <br> Bonpagna Kann, Thodsaporn Chay-intr, Hour Kaing, Thanaruk Theeramunkong <br> *International Journal of Information Technology and Electrical Engineering)
+- **Khmer Treebank Construction via Interactive Tree Visualization** (2019) <br> Bonpagna Kann, Thodsaporn Chay-intr, Hour Kaing, Thanaruk Theeramunkong <br> *International Journal of Information Technology and Electrical Engineering
 3(3)* <br> [paper](https://jurnal.ugm.ac.id/ijitee/article/view/48545)
