@@ -1,0 +1,56 @@
+# Configs for pwills.com
+
+title: "boated.zip"
+name: "boated.zip"
+email: t.chayintr@mail.com
+url: "https://boated.zip"
+repository: "tchayintr/tchayintr.github.io"
+
+include:
+  - _pages
+  - assets
+  - index.html
+exclude:
+  - TODO.md
+  - README.md
+  - "*.org"
+  - "*ltximg*"
+
+# Build settings
+markdown: kramdown
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# settings for author profile
+author:
+  name   : "Thodsaporn Chay-intr, D. Eng."
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "NLP Researcher and AI/ML Engineer"
+  location: "Bangkok, Thailand"
+  github : tchayintr
+  linkedin: tchayintr
+  email  : t.chayintr@gmail.com
+
+# default YAML front matter
+defaults:
+  # all
+  - scope:
+      path: ""
+    values:
+      layout: single
+      mathjax: true
+      author_profile: true
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
+  - scope:
+      type: posts
+    values:
+      toc: true
+      toc_label: "Contents"
+      read_time: false
+      comments: true
