@@ -12,6 +12,7 @@ My academic path has been distinctly defined by a deep-rooted engagement in cutt
 
 
 ## Recent Updates
+- [2023-12-15] I have received the invitation to join the [Journal of Intelligent Informatics and Smart Technology (JIIST)](https://ph05.tci-thaijo.org/index.php/JIIST) as an association editor to build a strong academic network and to contribute to the development of the journal.
 - [2023-12-04] I have received the distinguished invitation to join the [Intelligent Informatics and Service Innovation (IISI) Research Center](https://saki.siit.tu.ac.th/downloads/iisi/IISI-ResearchCenter-2014-v02%20(1).pdf) in Thailand as a visiting researcher.
 
 
