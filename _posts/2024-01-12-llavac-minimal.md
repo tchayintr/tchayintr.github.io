@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /posts/llavac-minimal
+permalink: /arts/llavac-minimal
 author_profile: true
 toc: true
 date: 2024-01-13
