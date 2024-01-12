@@ -8,6 +8,7 @@ repository: "tchayintr/tchayintr.github.io"
 
 include:
   - _pages
+  - _articles
   - assets
   - index.html
 exclude:
