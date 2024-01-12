@@ -9,3 +9,5 @@ main:
     url: /resume
   - title: "CV"
     url: /cv
+  - title: "Articles"
+    url: /art
