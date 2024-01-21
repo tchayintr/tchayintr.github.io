@@ -8,7 +8,8 @@ toc: true
 # Selected Publications
 
 ## Conference Papers
-- **Simple2In1: A Simple Method for Fusing Two Sequences from Different Captioning Systems into One Sequence for a Small-scale Thai Dataset** <br> Wuttinan Longjaroen, Thodsaporn Chay-intr, Kotaro Funakoshi, Ananlada Chotimongkol, Sasiporn Usanavasin <br> *iSAI-NLP-AIoT 2023* <br> [paper](#) [code](https://github.com/wuttinan-longjaroen/simple2in1)
+- **Extreme Fine-tuning: A Novel and Fast Fine-tuning Approach for Text Classification** <br> Boonnithi Jiaramaneepinit, Thodsaporn Chay-intr, Kotaro Funakoshi, Manabu Okumura <br> *EACL 2024* <br> *To be published* [paper](#) [code](#)
+- **Simple2In1: A Simple Method for Fusing Two Sequences from Different Captioning Systems into One Sequence for a Small-scale Thai Dataset** <br> Wuttinan Longjaroen, Thodsaporn Chay-intr, Kotaro Funakoshi, Ananlada Chotimongkol, Sasiporn Usanavasin <br> *iSAI-NLP-AIoT 2023* <br> [paper](https://ieeexplore.ieee.org/document/10355030/) [code](https://github.com/wuttinan-longjaroen/simple2in1)
 - **Character-based Thai Word Segmentation with Multiple Attentions** <br>
 Thodsaporn Chay-intr, Hidetaka Kamigaito, Manabu Okumura <br> *RANLP 2021* <br> [paper](https://aclanthology.org/2021.ranlp-1.31.pdf) [code](https://github.com/tchayintr/thwcc-attn)
 - **CF Planter: A Toolset for Semi-automatic Thai Treebank Construction** <br> Pechlada Seenual, Thodsaporn Chay-intr, Thanaruk Theeramunkong <br> *ICESIT-ICICTES 2018* <br> [paper](https://ieeexplore.ieee.org/abstract/document/8442061)
