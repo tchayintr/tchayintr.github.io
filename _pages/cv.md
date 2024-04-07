@@ -12,7 +12,7 @@ toc: true
 - **Doctor of Engineering**, Tokyo Institute of Technology, Japan, 2019 - 2023
     - Major: Information and Communications Engineering
     - Advisor: Prof. [Manabu Okumura](http://www.lr.pi.titech.ac.jp/~oku/index-e.html)
-    - Thesis: Incorporating Multi-granularity Linguistic Units in Character-based Word Segmentation
+    - Thesis: [Incorporating Multi-granularity Linguistic Units in Character-based Word Segmentation](https://t2r2.star.titech.ac.jp/cgi-bin/publicationinfo.cgi?q_publication_content_number=CTT100902372)
     - Scholarship: NSK Foundation Scholarship
 - **Master of Engineering**, Sirindhorn International Institute of Technology, Thammasat University, Thailand, 2015 - 2018
     - Major: Information and Communication Technology for Embedded Systems
@@ -40,10 +40,12 @@ toc: true
     - PRICAI 2016
 - Conference Reviewers:
     - iSAI-NLP-AIoT 2021, 2018
+- Journal Association Editor
+    - Journal of Intelligent Informatics and Smart Technology (JIIST)
 
 ## Selected Honors and Awards
 - NSK Foundation Scholarship (2019)
-- the 47th International Exhibition of Inventions Geneva - Bronze Medal (2019)
+- The 47th International Exhibition of Inventions Geneva - Bronze Medal (2019)
     - Public Budget Usage Monitoring
 - TAIST-Tokyo Tech Scholarship (2015)
 - IC-ICTES 2016 Best Poster Award (2016)
@@ -52,6 +54,7 @@ toc: true
 ## Technical Experience
 - Lecturer, Artificial Intelligence Association of Thailand for Machine Learning using Python courses (2018 - 2023)
 - Instructor, Artificial Intelligence Association of Thailand for Data Science and Machine Learning Bootcamp (2018)
+- Committee and Consultant, Super AI Engineer Thailand (2022 - 2024)
 
 ## Mentoring Experience
 - Tip-aroon Kiawkaew (2023)

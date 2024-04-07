@@ -44,7 +44,7 @@ toc: true
 - **Doctor of Engineering**, Tokyo Institute of Technology, Japan, 2019 - 2023
     - Major: Information and Communications Engineering
     - Advisor: Prof. [Manabu Okumura](http://www.lr.pi.titech.ac.jp/~oku/index-e.html)
-    - Thesis: Incorporating Multi-granularity Linguistic Units in Character-based Word Segmentation
+    - Thesis: [Incorporating Multi-granularity Linguistic Units in Character-based Word Segmentation](https://t2r2.star.titech.ac.jp/cgi-bin/publicationinfo.cgi?q_publication_content_number=CTT100902372)
     - Scholarship: NSK Foundation Scholarship
 - **Master of Engineering**, Sirindhorn International Institute of Technology, Thammasat University, Thailand, 2015 - 2018
     - Major: Information and Communication Technology for Embedded Systems
