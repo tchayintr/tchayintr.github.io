@@ -42,6 +42,8 @@ toc: true
     - iSAI-NLP-AIoT 2021, 2018
 - Journal Association Editor
     - Journal of Intelligent Informatics and Smart Technology (JIIST)
+- Consultants
+    - Super AI Engineer Thailand 2024, 2023, 2022
 
 ## Selected Honors and Awards
 - NSK Foundation Scholarship (2019)
