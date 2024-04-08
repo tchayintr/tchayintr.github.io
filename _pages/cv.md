@@ -3,6 +3,7 @@ title: ""
 permalink: /cv/
 author_profile: true
 toc: true
+date: 2024-04-08
 ---
 
 # Curriculum Vitae (CV)
