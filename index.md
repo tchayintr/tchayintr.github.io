@@ -5,8 +5,7 @@ toc: true
 ---
 
 # Thodsaporn Chay-intr's Homepage
-
-I am a recent Doctoral graduate in Engineering from the [Tokyo Institute of Technology](https://www.titech.ac.jp/english), Japan, where I had the honor of contributing to the [Okumura-Funakoshi Lab](https://lr-www.pi.titech.ac.jp/). Prior to this, I earned my Master's degree in Engineering from the Sirindhorn International Institute of Technology at Thammasat University, Thailand. 
+I am currently the Head of AI at [iApp Technology Co., Ltd](https://iapp.co.th/), Thailand. Prior to this role, I earned my Doctoral degree in Engineering from the [Tokyo Institute of Technology](https://www.titech.ac.jp/english), Japan, where I had the honor of contributing to the [Okumura-Funakoshi Lab](https://lr-www.pi.titech.ac.jp/). 
 
 My academic path has been distinctly defined by a deep-rooted engagement in cutting-edge engineering practices and research, with a particular focus on Natural Language Processing (NLP) and the progression from traditional methodologies to modern advancements in Machine Learning.
 

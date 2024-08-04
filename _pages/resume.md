@@ -3,30 +3,38 @@ title: ""
 permalink: /resume/
 author_profile: true
 toc: true
-date: 2024-04-08
+date: 2024-08-05
 ---
 
 # Resume
 > Click [here](/assets/files/thodsaporn-chayintr-web-resume.pdf) to download the PDF version of my resume.
 
 ## Work Experience
-- **AI Solutions Consultant and AI Engineer**  <br>iApp Technology Limited, Thailand, Jan 2024 - Apr 2024  
-    - Contributed to strategic decision-making, guiding AI project lifecycles from concept to completion, aligning with trends and goals to ensure top-quality and performance for successful delivery to clients.
-    - Provided expert consultation on integrating AI solutions to client products for enhancing their business and achieving strategic goals.
-    - Spearheaded POCs, developed, and delivered AI solutions, leveraging open-source LLMs (e.g., LLaMa-2 and OpenThaiGPT) with RAG through PyTorch and llama.cpp, for various use cases, including, financial agents, helpdesk, and information retrieval tasks.
-    - Conducted comprehensive data analysis and modeling using PyTorch, enhancing model accuracy by up to 27% for various tasks such as intent classification, sentiment analysis, and face-shape classification.
-    - Contributed the development of state-of-the-art AI products for various domain solutions, e.g., multilingual ASR (English, Japanese, Chinese and Thai) with up to 99% of accuracy achievement and LLM-based FAQ classification with 88.97% of accuracy.
-- **Machine Learning Researcher and Lecturer** <br>Artificial Intelligence Association of Thailand, Thailand, Jan 2018 - Aug 2023  
-    - Designed and delivered Python courses on data analysis, AI, and ML. Covered tools (e.g., pandas, scikit-learn, spacy) and algorithms (e.g., regression, SVM, neural nets) in text and image analysis to educate hundreds of students, cultivating ML enthusiasts in Thailand.
-    - Offered in-depth consultations to undergraduate and graduate students on theoretical, practical, ML concepts, strategically guiding study plans and assisting in the publication of over 20+ international research papers and projects.
+- **AI/ML Engineer and Head of AI**  <br>iApp Technology Co., Ltd., Thailand, Jan 2024 - Aug 2024  
+    - Developed an LLM-based chatbot/search using LLMs with llama.cpp, TensorRT-LLM, and RAG, achieving 97.67% QA accuracy and 87.53% perfect recall with response times under 6.5 seconds.
+    - Synthesized training samples for text classification with LLMs, boosting accuracy above 90% and improving by up to 27%.
+    - Managed and led a multidisciplinary team to develop AI projects from inception to deployment, including OCR, ASR, TTS, LLMs, and image processing, doubling team capacity and efficiency.
+    - Led R&D initiatives to transform cutting-edge research into practical AI products.
+
+- **ML Researcher and Lecturer** <br>Artificial Intelligence Association of Thailand, Thailand, Jan 2018 - Aug 2023  
+    - Delivered Python courses on data analysis and ML to hundreds of AI enthusiasts, covering tools such as pandas and scikit-learn, and algorithms including SVM and NNs.
+    - Consulted with industry professionals and scholars on ML concepts, guiding plans and assisting in publishing over 20 international research papers and projects.
+
 - **Research Assistant** <br>Tokyo Institute of Technology, Japan, Sep 2019 - Mar 2020
-    - Collaborated with a multidisciplinary team of 8 members to design and implement tailored APIs for Natural Langue Understanding and Generation units for Japanese conversational dialogs.
-    - Designed, developed, and applied LSTM-based sequence-to-sequence models using PyTorch for text generation and refinement, resulting in enhanced fluency and a more natural linguistic output, validated through human evaluations.
-- **Machine Learning Engineer, Software Engineer, and Researcher** <br>iApp Technology Limited, Thailand, Mar 2017 - Feb 2018
-    - Spearheaded and led a cross-disciplinary team of linguists and software developers to construct the first Thai Treebank, comprising over 5,000 entries, contributing Thai NLP resources, enhancing research, innovations, and applications in the NLP community.
-    - Led the development and deployment of native and web applications in React, Python, and GCP as a pipeline product for syntactic extraction, with an emphasis on intuitive UX, bolstering ongoing developments in the Thai NLP community.
+    - Collaborated with a multidisciplinary team to develop modules for NLU/NLG units for Japanese conversational dialogs.
+    - Implemented a Seq2Seq model using BiLSTM with cross-attention in PyTorch for more natural text generation, validated through human evaluations.
+
+- **ML Engineer and Researcher** <br>iApp Technology Co., Ltd., Thailand, Mar 2017 - Feb 2018
+    - Constructed the first Thai Treebank with over 5,000 entries with a team of linguists and developers, enhancing resources, research, and applications in the Thai NLP community.
+    - Developed a syntactic annotation tool in native (Java) and web (React, Python) applications, deployed on GCP, supporting ongoing resource developments.
+
 
 ## Selected Projects
+- **LLM-based Conversational AI System for General Banking Queries** (Mar 2024)
+    - Contributed to POCs and development of an LLM-based chatbot/search system for a tech innovation division of a leading bank in Thailand using LLaMa (2, 3, and 3.1), OpenThaiGPT, llama.cpp, TensorRT-LLM, and RAG. 
+    - Achieved 97.67% QA accuracy, 87.53% perfect recall, and maintained response times under 6.5 seconds.
+    - Introduced intent classification with over 92% accuracy as a guardrail to filter the input/output of the system, ensuring the responses align with banking policies. 
+
 - **Extreme Fine-tuning: A Novel and Fast Fine-tuning Approach for Text Classification (EACL 2024)** (Mar 2024)
     - Proposed a novel text classification fine-tuning approach incorporating backpropagation with extreme learning machine, reducing fine-tuning time while retaining classification accuracy and F1-score.
     - Attained faster fine-tuning time by up to 74.8% with comparable scores over recent state-of-the-art models on MELD, IEMOCAP, IMDb, and AG News datasets.
@@ -40,7 +48,7 @@ date: 2024-04-08
     - Developed a T5-based generative model for Thai captions fusion, outperforming baselines by 5.2% in sBLEU and ROUGE-L scores.
     - Accomplished a sBLEU score of 79% and a ROUGE-L score of 90% for a small captioning dataset comprising 3,168 samples.
 - **LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation** (Jun 2023)
-    - Proposed, and implemented a sequence labelling method that integrates multi-granularity linguistic units, Lattices, GNNs, PTMs, and Attention Mechanism using PyTorch and PyG to generate and refine text representations for word segmentation.
+    - Proposed a sequence labelling method that integrates multi-granularity linguistic units, Lattices, GNNs, PTMs, and Attention Mechanism to generate and refine text representations for word segmentation. in PyTorch with PyG.
     - Achieved state-of-the-art performance (97.7% to 99.4% of F1-score) across Asian languages: Japanese, Chinese, and Thai.
 - **Multimodal Sentiment Analysis Using Multiple Labels from Different Modalities** (Mar 2023)
     - Collaborated with students to design and implement a sentiment analysis model for social network data, leveraging text, image, and multimodal labels using CLIP, BERT, and RoBERTa. Yielded up to 2% improvement in F1-score over recent models.
@@ -73,8 +81,8 @@ date: 2024-04-08
 ## Skills
 - **Technical Skills**
     - **Programming Languages**: Python, C/C++, Rust, Java
-    - **ML Toolkits**: PyTorch/Lightning, TensorFlow/Keras, Hugging Face, PyG, DGL, OpenCV, Scikit-learn, Spacy, NLTK
-    - **Tools & Technology**: Linux, Hadoop, Spark, SQL, NoSQL, Oracle Database, Docker, Jupyter, Neo4j, Elasticsearch, GCP, AWS, Git
+    - **ML Toolkits**: PyTorch/Lightning, TensorFlow, Hugging Face, PyG, OpenCV, Scikit-learn, Spacy, NLTK, llama.cpp, TensorRT-LLM
+    - **Tools & Technology**: Linux, Hadoop/Spark, SQL, NoSQL(MongoDB, Neo4j), Docker, Elasticsearch GCP, AWS, Git
 
 - **Languages**
     - **Thai**: Native

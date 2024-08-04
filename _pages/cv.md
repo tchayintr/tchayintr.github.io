@@ -3,7 +3,7 @@ title: ""
 permalink: /cv/
 author_profile: true
 toc: true
-date: 2024-04-08
+date: 2024-08-05
 ---
 
 # Curriculum Vitae (CV)
@@ -33,14 +33,14 @@ date: 2024-04-08
     - KSE 2020
     - STUD 2019
 - Conference Organizing Members:
-    - iSAI-NLP-AIoT 2021, 2020, 2019, 2018, 2017
+    - iSAI-NLP-AIoT 2024, 2021, 2020, 2019, 2018, 2017
     - KSE 2021
     - KICSS 2018
     - IDT 2019
     - ISAAC 2017
     - PRICAI 2016
 - Conference Reviewers:
-    - iSAI-NLP-AIoT 2021, 2018
+    - iSAI-NLP-AIoT 2024, 2021, 2018
 - Journal Association Editor
     - Journal of Intelligent Informatics and Smart Technology (JIIST)
 - Consultants
