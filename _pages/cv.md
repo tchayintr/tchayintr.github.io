@@ -3,10 +3,11 @@ title: ""
 permalink: /cv/
 author_profile: true
 toc: true
-date: 2024-08-05
+date: 2024-12-07
 ---
 
-# Curriculum Vitae (CV)
+# To be updated
+<!-- # Curriculum Vitae (CV)
 > Click [here](/assets/files/thodsaporn-chayintr-web-cv.pdf) to download the PDF version of my CV.
 
 ## Education
@@ -67,4 +68,4 @@ date: 2024-08-05
 - Pannathorn Naksung, Chayaphat Nicrothanon, Putthichot Chunjiree (2019)
     - Bachelor students at Sirindhorn International Institute of Technology
 - Pechlada Seenual (2017)
-    - Bachelor students at Sirindhorn International Institute of Technology
+    - Bachelor students at Sirindhorn International Institute of Technology -->

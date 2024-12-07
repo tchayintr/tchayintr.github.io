@@ -3,7 +3,7 @@ title: ""
 permalink: /arts/llavac-minimal
 author_profile: true
 toc: true
-date: 2024-01-13
+date: 2024-12-07
 read_time: true
 ---
 

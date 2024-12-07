@@ -3,56 +3,78 @@ title: ""
 permalink: /resume/
 author_profile: true
 toc: true
-date: 2024-08-05
+date: 2024-12-07
 ---
 
 # Resume
 > Click [here](/assets/files/thodsaporn-chayintr-web-resume.pdf) to download the PDF version of my resume.
 
 ## Work Experience
-- **AI/ML Engineer and Head of AI**  <br>iApp Technology Co., Ltd., Thailand, Jan 2024 - Aug 2024  
-    - Developed an LLM-based chatbot/search using LLMs with llama.cpp, TensorRT-LLM, and RAG, achieving 97.67% QA accuracy and 87.53% perfect recall with response times under 6.5 seconds.
-    - Synthesized training samples for text classification with LLMs, boosting accuracy above 90% and improving by up to 27%.
-    - Managed and led a multidisciplinary team to develop AI projects from inception to deployment, including OCR, ASR, TTS, LLMs, and image processing, doubling team capacity and efficiency.
-    - Led R&D initiatives to transform cutting-edge research into practical AI products.
-
+- **AI/ML Engineer and Head of AI**  <br>iApp Technology Co., Ltd., Thailand, Jan 2024 - Jan 2025  
+    - Led AI projects (text, vision, and audio), transforming practical research into production and doubling team efficiency.
+    - Managed AI server infrastructure with containers and orchestration, ensuring scalable and reliable ML performance.
+    - Developed efficient LLM-based agents with RAG and TensorRT-LLM, achieving 97.67% QA accuracy, 87.53% recall for Thai.
+    - Analyzed linguistic aspects of international languages (Thai, Chinese, Japanese) to deliver NLP projects from concept to release.
+    
 - **ML Researcher and Lecturer** <br>Artificial Intelligence Association of Thailand, Thailand, Jan 2018 - Aug 2023  
-    - Delivered Python courses on data analysis and ML to hundreds of AI enthusiasts, covering tools such as pandas and scikit-learn, and algorithms including SVM and NNs.
-    - Consulted with industry professionals and scholars on ML concepts, guiding plans and assisting in publishing over 20 international research papers and projects.
+    - Advised professionals and scholars on ML, contributing to the planning and publication of over 20 research papers.
+    - Delivered courses on ML/NLP, focusing on algorithms, techniques, and tools (e.g., SVM, parsing, and scikit-learn).
 
 - **Research Assistant** <br>Tokyo Institute of Technology, Japan, Sep 2019 - Mar 2020
-    - Collaborated with a multidisciplinary team to develop modules for NLU/NLG units for Japanese conversational dialogs.
-    - Implemented a Seq2Seq model using BiLSTM with cross-attention in PyTorch for more natural text generation, validated through human evaluations.
+    - Collaborated with a multidisciplinary team to develop NLU/NLG modules for Japanese conversational dialogues.
+    - Built a BiLSTM Seq2Seq model with cross-attention in PyTorch for natural text generation, validated via human evaluation.
 
 - **ML Engineer and Researcher** <br>iApp Technology Co., Ltd., Thailand, Mar 2017 - Feb 2018
-    - Constructed the first Thai Treebank with over 5,000 entries with a team of linguists and developers, enhancing resources, research, and applications in the Thai NLP community.
-    - Developed a syntactic annotation tool in native (Java) and web (React, Python) applications, deployed on GCP, supporting ongoing resource developments.
+    - Led the development of the first Thai Treebank (5,000+ entries) with linguists and developers to advance Thai NLP.
+    - Developed a syntactic annotation tool for native and web applications, deployed on GCP to support resource development.
 
+## Highlight Projects
+- **ChindaLLM: LLM-powered Chatbot Platform for Advanced Business Automation** (Sep 2024)
+    - Led a multidisciplinary team to create a chatbot platform powered by multimodal LLMs with a custom RAG engine.
+    - Fine-tuned multimodal LLMs to meet client requirements and developed a graph-based RAG for enhanced retrieval.
+- **LLM-based Conversational AI System for Banking Queries** (Jul 2024)
+    - Contributed to developing an LLM-based agent for general banking queries using TensorRT-LLM and customized RAG.
+    - Synthesized data with LLMs to build intent classification guardrail, boosting accuracy by 27% to 92% for banking compliance.
+    - Achieved 97.67% QA accuracy, 87.53% recall, and maintained response times under 6.5 seconds.
+- **LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation** (Jun 2023)
+    - Proposed a method using candidate lattices, GNNs, and attention to refine character representations for word tokenization.
+    - Integrated Tries with Aho-Corasick to extract candidate characters and words for lattice construction in linear time. 
+    - Achieved SOTA F1-score (97.7% to 99.4%) across Asian languages: Japanese, Chinese, and Thai.
+- **Character-based Thai Word Segmentation with Multiple Attentions (RANLP 2021/Journal of NLP)** (Sep 2021/Jun 2023)
+    - Proposed a PTM-based word segmentation model with attention across linguistic units (characters, character clusters, subwords, and words), achieving SOTA performance on well-known Thai datasets.
+    - Developed a subword tokenizer using SentencePiece and a character-cluster tokenizer optimized for Thai linguistic characteristics.
 
 ## Selected Projects
-- **LLM-based Conversational AI System for General Banking Queries** (Mar 2024)
-    - Contributed to POCs and development of an LLM-based chatbot/search system for a tech innovation division of a leading bank in Thailand using LLaMa (2, 3, and 3.1), OpenThaiGPT, llama.cpp, TensorRT-LLM, and RAG. 
-    - Achieved 97.67% QA accuracy, 87.53% perfect recall, and maintained response times under 6.5 seconds.
-    - Introduced intent classification with over 92% accuracy as a guardrail to filter the input/output of the system, ensuring the responses align with banking policies. 
-
+- **SpeechFlow: AI-powered Application for Thai-English Transcription, Summarization, and Translation** (Dec 2024)
+    - Contributed to integrating AI services into an application for seamless Thai-English transcription, summarization, and translation.
+    - Led the deployment of the ASR Pro engine on server infrastructure, scaling to support thousands of users.
+- **LLM-based Chatbot for Elderly Comfort and Consultation** (Oct 2024)
+    - Fine-tuned an open-sourced LLM using SFT, DPO, KTO to build a RAG-based chatbot for elderly conversations and support.
+    - Designed LLM agents for various tasks, including data synthesis and automatic evaluation.
+- **Dual-Stage Face Anti-Spoofing for Active and Passive Liveness Detection** (Oct 2024)
+    - Led the development of a FAS model with active liveness detection and passive spoofing prevention stages.
+    - Achieved Level 1 Presentation Attack Detection certification from iBeta with 0% APCER and BPCER below 3%.
+- **ASR Pro: Advanced Context-aware ASR for Thai** (Aug 2024)
+    - Developed an approach to enhance ASR contextual awareness by integrating LLMs into a fine-tuned ASR model.
+    - Reduced WER by 3.12% and improved inference speed by 1.3x than top commercial competitors.
+- **Fine-tuning Thai-English TTS Models with Phoneme-level Representations** (Aug 2024)
+    - Fine-tuned Thai-English TTS models using phoneme-level tokenization, achieving more natural speech than previous models.
+    - Contributed Thai-English support to a public TTS repository, extending its functionality with fine-tuned models.
 - **Extreme Fine-tuning: A Novel and Fast Fine-tuning Approach for Text Classification (EACL 2024)** (Mar 2024)
-    - Proposed a novel text classification fine-tuning approach incorporating backpropagation with extreme learning machine, reducing fine-tuning time while retaining classification accuracy and F1-score.
-    - Attained faster fine-tuning time by up to 74.8% with comparable scores over recent state-of-the-art models on MELD, IEMOCAP, IMDb, and AG News datasets.
+    - Proposed a fine-tuning approach combining backpropagation with Extreme Learning Machine (ELM) for efficient text classification.
+    - Reduced fine-tuning time by up to 74.8% with SOTA-level performance on MELD, IEMOCAP, IMDb, and AG News.
 - **LLaVAC: Fine-tuning LLaVA as a Multimodal Sentiment Classifier** (Jan 2024)
-    - Proposed a method to fine-tune Large Language-and-Vision Assistant (LLaVA) as a classifier for classifying multimodal sentiment labels by designing a prompt to consider unimodal and multimodal labels and generating predicted labels.
-    - Outperformed state-of-the-art baselines by up to 7.31% in accuracy and by 8.76% in weighted-F1 in the MVSA-Single dataset.
+    - Proposed a method to fine-tune LLaVA for classifying multimodal sentiment labels, incorporating unimodal and multimodal inputs.
+    - Outperformed SOTA baselines by up to 7.31% in accuracy and 8.76% in weighted-F1 in the MVSA-Single dataset.
 - **A Unification-based Knowledge Graph Construction for Thai Profile Generation from Online Resources** (Sep 2023)
-    - Constructed a knowledge graph for Thai researchers, using 6+ million entries crawled from online research databases.
+    - Constructed a knowledge graph of Thai researchers, using 6+ million entries crawled from online research databases. 
     - Designed a semi-supervised method with multi-task learning to extract entities/relations, improving F1-score by 8% over baseline.
 - **Simple2In1:A Simple Method for Fusing Two Sequences from Different Captioning Systemsinto One Sequence** (Sep 2023)
-    - Developed a T5-based generative model for Thai captions fusion, outperforming baselines by 5.2% in sBLEU and ROUGE-L scores.
-    - Accomplished a sBLEU score of 79% and a ROUGE-L score of 90% for a small captioning dataset comprising 3,168 samples.
-- **LATTE: Lattice ATTentive Encoding for Character-based Word Segmentation** (Jun 2023)
-    - Proposed a sequence labelling method that integrates multi-granularity linguistic units, Lattices, GNNs, PTMs, and Attention Mechanism to generate and refine text representations for word segmentation. in PyTorch with PyG.
-    - Achieved state-of-the-art performance (97.7% to 99.4% of F1-score) across Asian languages: Japanese, Chinese, and Thai.
+    - Developed a T5-based generative model for Thai caption fusion, paraphrasing and merging sequences into one.
+    - Outperformed baselines by 5.2%, achieving 79% sBLEU and 90% ROUGE-L on a small captioning dataset of 3,168 samples.
 - **Multimodal Sentiment Analysis Using Multiple Labels from Different Modalities** (Mar 2023)
-    - Collaborated with students to design and implement a sentiment analysis model for social network data, leveraging text, image, and multimodal labels using CLIP, BERT, and RoBERTa. Yielded up to 2% improvement in F1-score over recent models.
-    - Attained F1-scores of 74.1% for MVSA-single and 62.0% MVSA-multiple datasets.
+    - Developed a sentiment analysis model with CLIP, BERT, and RoBERTa, leveraging text, image, and multimodal labels.
+    - Achieved up to 2% higher F1-scores than previous models, with 74.1% on MVSA-single and 62.0% on MVSA-multiple datasets.
 - **Detecting Fraud Job Recruitment Using Features Reflecting from Real-world Knowledge of Fraud** (Mar 2022)
     - Developed a method to classify fake job recruitments using a set of novel features designed to reflect fraudster behaviors.
     - Yielded accuracy of 97.64% for Employment Scam Aegean Dataset (EMSCAD).
@@ -80,9 +102,9 @@ date: 2024-08-05
 
 ## Skills
 - **Technical Skills**
-    - **Programming Languages**: Python, C/C++, Rust, Java
-    - **ML Toolkits**: PyTorch/Lightning, TensorFlow, Hugging Face, PyG, OpenCV, Scikit-learn, Spacy, NLTK, llama.cpp, TensorRT-LLM
-    - **Tools & Technology**: Linux, Hadoop/Spark, SQL, NoSQL(MongoDB, Neo4j), Docker, Elasticsearch GCP, AWS, Git
+    - **Programming Languages**: Python, C/C++, Rust, Shell Script
+    - **ML Toolkits**: PyTorch/Lightning, TensorFlow, Hugging Face, PyG, OpenCV, Scikit-learn, Spacy, NLTK, TensorRT-LLM, llama.cpp 
+    - **Tools & Technology**: Linux, Hadoop/Spark, SQL, NoSQL, Docker, Kubernetes, Elasticsearch, GCP, AWS, Git
 
 - **Languages**
     - **Thai**: Native
