@@ -3,11 +3,10 @@ title: ""
 permalink: /cv/
 author_profile: true
 toc: true
-date: 2024-12-07
+date: 2024-12-08
 ---
 
-# To be updated
-<!-- # Curriculum Vitae (CV)
+# Curriculum Vitae (CV)
 > Click [here](/assets/files/thodsaporn-chayintr-web-cv.pdf) to download the PDF version of my CV.
 
 ## Education
@@ -29,7 +28,7 @@ date: 2024-12-07
 
 ## Academic Services
 - Conference Publication Chairs:
-    - iSAI-NLP-AIoT 2021
+    - iSAI-NLP-AIoT 2024, 2021
     - KICSS 2021
     - KSE 2020
     - STUD 2019
@@ -68,4 +67,4 @@ date: 2024-12-07
 - Pannathorn Naksung, Chayaphat Nicrothanon, Putthichot Chunjiree (2019)
     - Bachelor students at Sirindhorn International Institute of Technology
 - Pechlada Seenual (2017)
-    - Bachelor students at Sirindhorn International Institute of Technology -->
+    - Bachelor students at Sirindhorn International Institute of Technology
