@@ -37,10 +37,12 @@ For the short version, see my [resume](/resume/). Updated August 2026.
     - IDT 2019
     - ISAAC 2017
     - PRICAI 2016
+- Conference Organizing Chairs:
+    - iSAI-NLP-AIoT 2025
 - Conference Session Chairs:
     - iSAI-NLP-AIoT 2025
 - Conference Reviewers:
-    - iSAI-NLP-AIoT 2024, 2021, 2018
+    - iSAI-NLP-AIoT 2025, 2024, 2021, 2018
 - Journal Association Editor
     - Journal of Intelligent Informatics and Smart Technology (JIIST)
 - Consultants
