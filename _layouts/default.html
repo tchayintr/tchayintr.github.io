@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != " " and page.title != "" %}{{ page.title }} · Thodsaporn Chay-intr{% else %}Thodsaporn Chay-intr{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: 'Thodsaporn Chay-intr — Chief AI Officer at iApp Technology. Thai-language LLMs, speech, and multimodal AI.' }}">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+</head>
+<body>
+<div class="wrap">
+
+{% if page.url == "/" %}
+<header>
+  <div class="masthead">
+    <div>
+      <h1>Thodsaporn Chay-intr</h1>
+      <p class="role">Chief AI Officer at iApp Technology, Bangkok</p>
+      {% include nav.html %}
+    </div>
+    <img src="/assets/images/headshot.jpg" alt="Portrait of Thodsaporn Chay-intr" width="82" height="81">
+  </div>
+</header>
+{% else %}
+<header>
+  <p class="sitename"><a href="/">Thodsaporn Chay-intr</a></p>
+  {% include nav.html %}
+</header>
+{% endif %}
+
+<hr>
+
+{{ content }}
+
+<hr>
+
+<footer>
+  <p><a href="mailto:t.chayintr@gmail.com">t.chayintr@gmail.com</a> · <a href="https://github.com/tchayintr">GitHub</a> · <a href="https://linkedin.com/in/tchayintr">LinkedIn</a> · <a href="https://huggingface.co/yacht">Hugging Face</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,16 +1,14 @@
 ---
-title: ""
+title: "CV"
 permalink: /cv/
-author_profile: true
-toc: true
 date: 2024-12-08
 ---
 
 # Curriculum Vitae (CV)
-> Click [here](/assets/files/thodsaporn-chayintr-web-cv.pdf) to download the PDF version of my CV.
+For the short version, see my [resume](/resume/). Updated August 2026.
 
 ## Education
-- **Doctor of Engineering**, Tokyo Institute of Technology, Japan, 2019 - 2023
+- **Doctor of Engineering**, Institute of Science Tokyo (formerly Tokyo Institute of Technology), Japan, 2019 - 2023
     - Major: Information and Communications Engineering
     - Advisor: Prof. [Manabu Okumura](http://www.lr.pi.titech.ac.jp/~oku/index-e.html)
     - Thesis: [Incorporating Multi-granularity Linguistic Units in Character-based Word Segmentation](https://t2r2.star.titech.ac.jp/cgi-bin/publicationinfo.cgi?q_publication_content_number=CTT100902372)

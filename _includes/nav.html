@@ -1,0 +1,9 @@
+<nav aria-label="Site">
+  <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a> ·
+  <a href="/pubs/"{% if page.url contains "/pubs/" %} aria-current="page"{% endif %}>Publications</a> ·
+  <a href="/models/"{% if page.url contains "/models/" %} aria-current="page"{% endif %}>Models</a> ·
+  <a href="/research/"{% if page.url contains "/research/" %} aria-current="page"{% endif %}>Research</a> ·
+  <a href="/resume/"{% if page.url contains "/resume/" %} aria-current="page"{% endif %}>Resume</a> ·
+  <a href="/cv/"{% if page.url contains "/cv/" %} aria-current="page"{% endif %}>CV</a> ·
+  <a href="/arts/"{% if page.url contains "/arts/" %} aria-current="page"{% endif %}>Articles</a>
+</nav>

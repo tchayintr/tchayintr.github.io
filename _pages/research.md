@@ -1,9 +1,6 @@
 ---
-title: ""
+title: "Research"
 permalink: /research/
-author_profile: true
-toc: true
-read_time: true
 date: 2024-04-08
 ---
 

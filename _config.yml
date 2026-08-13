@@ -1,8 +1,9 @@
-# Configs for pwills.com
+# boated.zip — custom layout, no external theme.
+# The design system lives in _layouts/default.html + assets/css/main.css.
 
-title: "boated.zip"
-name: "boated.zip"
-email: t.chayintr@mail.com
+title: "Thodsaporn Chay-intr"
+name: "Thodsaporn Chay-intr"
+email: t.chayintr@gmail.com
 url: "https://boated.zip"
 repository: "tchayintr/tchayintr.github.io"
 
@@ -10,48 +11,20 @@ include:
   - _pages
   - _articles
   - assets
-  - index.html
 exclude:
   - TODO.md
   - README.md
+  - Gemfile
+  - Gemfile.lock
   - "*.org"
   - "*ltximg*"
+  - thodsaporn-chayintr-core-resume.pdf
+  - thodsaporn-chayintr-core-resume.docx
 
-# Build settings
 markdown: kramdown
-# theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
 
-# settings for author profile
-author:
-  name   : "Thodsaporn Chay-intr, D. Eng."
-  avatar : "/assets/images/headshot.jpg"
-  bio    : "Head of AI at iApp Technology, AI/ML Engineer, and NLP Specialist"
-  location: "Bangkok, Thailand"
-  github : tchayintr
-  linkedin: tchayintr
-  email  : t.chayintr@gmail.com
-
-# default YAML front matter
 defaults:
-  # all
   - scope:
       path: ""
     values:
-      layout: single
-      mathjax: true
-      author_profile: true
-      class: wide
-      title: " "
-      title_separator: "|"
-  # posts
-  - scope:
-      type: posts
-    values:
-      toc: true
-      toc_label: "Contents"
-      read_time: false
-      comments: true
+      layout: default

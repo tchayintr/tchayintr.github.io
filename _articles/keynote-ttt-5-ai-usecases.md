@@ -1,10 +1,7 @@
 ---
 title: ""
 permalink: /arts/keynote-ttt-5-ai-usecases
-author_profile: true
-toc: true
 date: 2024-04-07
-read_time: true
 ---
 
 # 5 AI Use Cases that have been already Applied in Thai Businesses

@@ -1,7 +1,6 @@
 ---
-title: ""
+title: "Articles"
 permalink: /arts/
-author_profile: true
 date: 2024-04-07
 ---
 

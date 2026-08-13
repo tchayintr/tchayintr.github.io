@@ -1,0 +1,87 @@
+/* boated.zip — one serif column, plain and classic, polished for 2026.
+   Color is spent on links only. Dark mode follows the system. */
+
+:root {
+  --paper: #FCFCFA;
+  --ink: #1C1E1E;
+  --muted: #646B6D;
+  --link: #33616C;
+  --rule: #DCE1E2;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #16191A;
+    --ink: #E6E9E9;
+    --muted: #9AA4A6;
+    --link: #93BFC9;
+    --rule: #2E3739;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2.5px;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+}
+a:hover { text-decoration-color: var(--link); }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+.wrap { max-width: 39rem; margin: 0 auto; padding: 2.8rem 1.25rem 5rem; }
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
+
+/* masthead (home) and small header (subpages) */
+h1 { margin: 0 0 1rem; font-size: 1.75rem; font-weight: 700; line-height: 1.2; }
+header h1 { margin: 0; }
+.role { margin: .3rem 0 0; color: var(--muted); font-size: .95rem; }
+.sitename { margin: 0; font-weight: 700; }
+.sitename a { color: var(--ink); text-decoration: none; }
+.sitename a:hover { color: var(--link); }
+nav { margin: .9rem 0 0; font-size: .92rem; color: var(--muted); }
+header .sitename + nav { margin-top: .35rem; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover, nav a[aria-current] { color: var(--link); }
+.masthead { display: flex; justify-content: space-between; gap: 1.5rem; align-items: flex-start; }
+.masthead img { width: 82px; height: 81px; border-radius: 3px; margin-top: .35rem; }
+
+/* content */
+p { margin: 0 0 1rem; }
+h2 { margin: 2rem 0 1rem; font-size: 1.12rem; font-weight: 700; }
+h3 { margin: 1.6rem 0 .8rem; font-size: 1rem; font-weight: 700; }
+section > h2:first-child, .work h2 { margin-top: 0; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.15rem; }
+li { margin-bottom: .5rem; }
+ul.pubs li { margin-bottom: .7rem; }
+.date { color: var(--muted); }
+.venue { font-style: italic; }
+.work p { margin-bottom: 1.15rem; }
+blockquote {
+  margin: 0 0 1rem; padding: 0 0 0 1rem;
+  border-left: 2px solid var(--rule); color: var(--muted);
+}
+img { max-width: 100%; height: auto; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .85em;
+}
+pre { overflow-x: auto; padding: .8rem 1rem; border: 1px solid var(--rule); border-radius: 3px; }
+table { border-collapse: collapse; margin: 0 0 1rem; }
+th, td { border: 1px solid var(--rule); padding: .35rem .6rem; text-align: left; font-size: .92rem; }
+
+footer { color: var(--muted); font-size: .92rem; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--link); }
+
+@media (max-width: 540px) {
+  .masthead { flex-direction: column-reverse; }
+}
