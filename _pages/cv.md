@@ -1,7 +1,7 @@
 ---
 title: "CV"
 permalink: /cv/
-date: 2024-12-08
+date: 2026-08-14
 ---
 
 # Curriculum Vitae (CV)
@@ -37,12 +37,14 @@ For the short version, see my [resume](/resume/). Updated August 2026.
     - IDT 2019
     - ISAAC 2017
     - PRICAI 2016
+- Conference Session Chairs:
+    - iSAI-NLP-AIoT 2025
 - Conference Reviewers:
     - iSAI-NLP-AIoT 2024, 2021, 2018
 - Journal Association Editor
     - Journal of Intelligent Informatics and Smart Technology (JIIST)
 - Consultants
-    - Super AI Engineer Thailand 2024, 2023, 2022
+    - Super AI Engineer Thailand 2026, 2025, 2024, 2023, 2022
 
 ## Selected Honors and Awards
 - NSK Foundation Scholarship (2019)
@@ -55,9 +57,13 @@ For the short version, see my [resume](/resume/). Updated August 2026.
 ## Technical Experience
 - Lecturer, Artificial Intelligence Association of Thailand for Machine Learning using Python courses (2018 - 2023)
 - Instructor, Artificial Intelligence Association of Thailand for Data Science and Machine Learning Bootcamp (2018)
-- Committee and Consultant, Super AI Engineer Thailand (2022 - 2024)
+- Committee and Consultant, Super AI Engineer Thailand (2022 - 2026)
 
 ## Mentoring Experience
+- Mahannop Thabua (2026)
+    - Super AI Researcher program, Mahidol University
+- Smart Wattanapornmongkol (2026)
+    - Super AI Researcher program, Chulalongkorn University
 - Tip-aroon Kiawkaew (2023)
     - Doctoral student at Sirindhorn International Institute of Technology
 - Wuttinan Longjaroen (2023)
