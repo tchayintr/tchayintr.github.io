@@ -52,7 +52,7 @@ header .sitename + nav { margin-top: .35rem; }
 nav a { color: var(--muted); text-decoration: none; }
 nav a:hover, nav a[aria-current] { color: var(--link); }
 .masthead { display: flex; justify-content: space-between; gap: 1.5rem; align-items: flex-start; }
-.masthead img { width: 82px; height: 81px; border-radius: 3px; margin-top: .35rem; }
+.masthead img { width: 82px; height: 82px; border-radius: 3px; margin-top: .35rem; }
 
 /* content */
 p { margin: 0 0 1rem; }
