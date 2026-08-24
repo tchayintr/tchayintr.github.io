@@ -3,11 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.title != " " and page.title != "" %}{{ page.title }} · Thodsaporn Chay-intr{% else %}Thodsaporn Chay-intr{% endif %}</title>
-  <meta name="description" content="{{ page.description | default: 'Thodsaporn Chay-intr — Chief AI Officer at iApp Technology. Thai-language LLMs, speech, and multimodal AI.' }}">
+  {%- assign page_title = page.title | strip -%}
+  {%- if page_title and page_title != "" -%}
+    {%- assign full_title = page_title | append: " · Thodsaporn Chay-intr" -%}
+  {%- else -%}
+    {%- assign full_title = "Thodsaporn Chay-intr" -%}
+  {%- endif -%}
+  {%- assign meta_desc = page.description | default: "Thodsaporn Chay-intr — Chief AI Officer at iApp Technology. Thai-language LLMs, speech, and multimodal AI." -%}
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ meta_desc }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}article{% endif %}">
+  <meta property="og:site_name" content="Thodsaporn Chay-intr">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ meta_desc }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="{{ '/assets/images/og.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Thodsaporn Chay-intr — Chief AI Officer at iApp Technology, Bangkok">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Thodsaporn Chay-intr",
+    "url": "https://boated.zip",
+    "image": "https://boated.zip/assets/images/og.png",
+    "jobTitle": "Chief AI Officer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "iApp Technology Co., Ltd.",
+      "url": "https://iapp.co.th"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangkok",
+      "addressCountry": "TH"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Institute of Science Tokyo" },
+      { "@type": "CollegeOrUniversity", "name": "Sirindhorn International Institute of Technology, Thammasat University" },
+      { "@type": "CollegeOrUniversity", "name": "Thammasat University" }
+    ],
+    "knowsAbout": ["Natural Language Processing", "Large Language Models", "Speech Recognition", "Multimodal AI", "Word Segmentation"],
+    "sameAs": [
+      "https://github.com/tchayintr",
+      "https://linkedin.com/in/tchayintr",
+      "https://huggingface.co/yacht"
+    ]
+  }
+  </script>
 </head>
 <body>
 <div class="wrap">

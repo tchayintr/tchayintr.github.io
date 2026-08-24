@@ -4,5 +4,7 @@ _site
 .jekyll-metadata
 vendor
 manual.txt
-thodsaporn-chayintr-core-resume.docx
+.DS_Store
+**/.DS_Store
 thodsaporn-chayintr-core-resume.pdf
+thodsaporn-chayintr-core-resume.docx

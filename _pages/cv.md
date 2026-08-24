@@ -1,10 +1,10 @@
 ---
-title: "CV"
+title: "Academic CV"
 permalink: /cv/
 date: 2026-08-14
 ---
 
-# Curriculum Vitae (CV)
+# Academic CV
 For the short version, see my [resume](/resume/). Updated August 2026.
 
 ## Education
@@ -62,15 +62,23 @@ For the short version, see my [resume](/resume/). Updated August 2026.
 - Committee and Consultant, Super AI Engineer Thailand (2022 - 2026)
 
 ## Mentoring Experience
-- Mahannop Thabua (2026)
-    - Super AI Researcher program, Mahidol University
-- Smart Wattanapornmongkol (2026)
-    - Super AI Researcher program, Chulalongkorn University
-- Tip-aroon Kiawkaew (2023)
-    - Doctoral student at Sirindhorn International Institute of Technology
-- Wuttinan Longjaroen (2023)
-    - Master student at Sirindhorn International Institute of Technology
-- Pannathorn Naksung, Chayaphat Nicrothanon, Putthichot Chunjiree (2019)
-    - Bachelor students at Sirindhorn International Institute of Technology
-- Pechlada Seenual (2017)
-    - Bachelor students at Sirindhorn International Institute of Technology
+Students I have supervised or co-advised, and what my involvement was in each case.
+
+- **Mahannop Thabua** (2026)
+    - Super AI Researcher programme, Mahidol University
+    - Supervised the project end to end: set research direction, met regularly to review progress, reviewed code and experiments, and guided the write-up.
+- **Smart Wattanapornmongkol** (2026)
+    - Super AI Researcher programme, Chulalongkorn University
+    - Supervised the project end to end: set research direction, met regularly to review progress, reviewed code and experiments, and guided the write-up.
+- **Tip-aroon Kiawkaew** (2023)
+    - Doctoral student, Sirindhorn International Institute of Technology
+    - Guided research direction and reviewed code and experimental design.
+- **Wuttinan Longjaroen** (2023)
+    - Master's student, Sirindhorn International Institute of Technology
+    - Co-advised alongside their faculty supervisor: research direction, code and experiment review, and publication guidance through to iSAI-NLP-AIoT 2023.
+- **Pannathorn Naksung, Chayaphat Nicrothanon, Putthichot Chunjiree** (2019)
+    - Bachelor's students, Sirindhorn International Institute of Technology
+    - Supervised their final-year project: set research direction and guided the write-up through to NLPIR 2019.
+- **Pechlada Seenual** (2017)
+    - Bachelor's student, Sirindhorn International Institute of Technology
+    - Supervised their final-year project: set research direction and guided the write-up through to ICESIT-ICICTES 2018.

@@ -56,7 +56,7 @@ nav a:hover, nav a[aria-current] { color: var(--link); }
 
 /* content */
 p { margin: 0 0 1rem; }
-h2 { margin: 2rem 0 1rem; font-size: 1.12rem; font-weight: 700; }
+h2 { margin: 2.6rem 0 1.15rem; font-size: 1.3rem; font-weight: 700; line-height: 1.25; }
 h3 { margin: 1.6rem 0 .8rem; font-size: 1rem; font-weight: 700; }
 section > h2:first-child, .work h2 { margin-top: 0; }
 ul, ol { margin: 0 0 1rem; padding-left: 1.15rem; }
@@ -64,7 +64,10 @@ li { margin-bottom: .5rem; }
 ul.pubs li { margin-bottom: .7rem; }
 .date { color: var(--muted); }
 .venue { font-style: italic; }
-.work p { margin-bottom: 1.15rem; }
+.work p { margin-bottom: 1.75rem; }
+.work p:last-child { margin-bottom: 0; }
+.work p > b:first-child { font-size: 1.05em; }
+.work .date { white-space: nowrap; }
 blockquote {
   margin: 0 0 1rem; padding: 0 0 0 1rem;
   border-left: 2px solid var(--rule); color: var(--muted);
@@ -84,4 +87,17 @@ footer a:hover { color: var(--link); }
 
 @media (max-width: 540px) {
   .masthead { flex-direction: column-reverse; }
+}
+
+/* action row under the intro */
+.actions { margin: 1.6rem 0 0; }
+.actions a { text-decoration-color: color-mix(in srgb, var(--link) 55%, transparent); }
+.actions span { color: var(--muted); padding: 0 .3rem; }
+
+@media (max-width: 400px) {
+  body { font-size: 16px; }
+  .wrap { padding: 2rem 1rem 3.5rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.18rem; margin-top: 2.2rem; }
+  .actions { line-height: 2; }
 }

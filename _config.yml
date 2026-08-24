@@ -9,7 +9,6 @@ repository: "tchayintr/tchayintr.github.io"
 
 include:
   - _pages
-  - _articles
   - assets
 exclude:
   - TODO.md

@@ -7,7 +7,7 @@ date: 2026-08-13
 # Resume
 
 The current version, updated August 2026:
-[Download PDF](/assets/files/thodsaporn-chayintr-web-resume.pdf)
+[Download PDF](/assets/files/thodsaporn-chayintr-resume.pdf)
 
 In brief: I am Chief AI Officer at [iApp Technology](https://iapp.co.th/) in Bangkok and
 still a hands-on AI/ML engineer. Nine-plus years in NLP and production AI, shipping
