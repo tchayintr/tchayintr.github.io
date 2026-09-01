@@ -9,6 +9,9 @@ date: 2026-08-13
 Models my team and I have released, free to download and run. Most live on
 [open.iapp.co.th](https://open.iapp.co.th); weights are on Hugging Face.
 
+- **OpenThai 2.0 27B** — general-purpose Thai LLM on Qwen3.8-27B, Apache-2.0. Beats its base on 14 of
+  16 benchmarks; Thai document reading error falls 66% (0.126 vs 0.370 CER).
+  [Weights](https://huggingface.co/iapp/openthai2.0-qwen3.8-27b)
 - **OpenThai 2.0 Legal** — Thai legal LLM on Nemotron-3-Nano-30B, built with NVIDIA, BDI,
   and AIEAT. [Weights](https://huggingface.co/iapp/openthai2.0-legal-thaillm-nemotron-3-nano-30b-a3b)
 - **OpenThaiGPT 1.6 & R1** — Thai-centric open-source and reasoning LLMs. R1 (32B) beats
