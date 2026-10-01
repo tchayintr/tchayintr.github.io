@@ -13,7 +13,7 @@ Models my team and I have released, free to download and run. Most live on
   16 benchmarks; Thai document reading error falls 66% (0.126 vs 0.370 CER).
   [Weights](https://huggingface.co/iapp/openthai2.0-qwen3.8-27b)
 - **OpenThai 2.0 Legal** — Thai legal LLM on Nemotron-3-Nano-30B, built with NVIDIA, BDI,
-  and AIEAT. [Weights](https://huggingface.co/iapp/openthai2.0-legal-thaillm-nemotron-3-nano-30b-a3b)
+  and AIEAT; selected for the national TH-AI Passport programme. [Weights](https://huggingface.co/iapp/openthai2.0-legal-thaillm-nemotron-3-nano-30b-a3b)
 - **OpenThaiGPT 1.6 & R1** — Thai-centric open-source and reasoning LLMs. R1 (32B) beats
   DeepSeek-R1-70B on Thai reasoning benchmarks at half the size.
   [Paper](https://arxiv.org/abs/2504.01789) · [1.6-72B](https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct) · [R1-32B](https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instruct)
