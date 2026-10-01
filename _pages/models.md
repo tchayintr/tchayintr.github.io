@@ -18,8 +18,8 @@ Models my team and I have released, free to download and run. Most live on
   DeepSeek-R1-70B on Thai reasoning benchmarks at half the size.
   [Paper](https://arxiv.org/abs/2504.01789) · [1.6-72B](https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct) · [R1-32B](https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instruct)
 - **ChindaMT** — Thai–English translation that follows your rules on terminology, tone, and
-  format, at 4B, 2B, and 0.8B, with the training data and evals open too. Also a
-  [hosted API](https://iapp.co.th/docs/nlp/translation/chindamt).
+  format, at 4B, 2B, and 0.8B, with the training data and evals open too. Also hosted as a
+  [translation API service](https://iapp.co.th/docs/nlp/translation/chindamt).
   [Models](https://open.iapp.co.th/models/chindamt/) · [Paper](https://arxiv.org/abs/2609.34770), AACL-IJCNLP 2026.
 - **Chinda LLM 4B** — compact Thai LLM under Apache-2.0. [open.iapp.co.th](https://open.iapp.co.th)
 - **LATTE word segmentation models** — pre-trained character-based segmenters for
